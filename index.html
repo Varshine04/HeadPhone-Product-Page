@@ -1,0 +1,124 @@
+<!-- Based on Product Landing Page by Brad Traversy (2019)
+see: https://www.youtube.com/watch?v=61R5kn_kYwY -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Headphones Product Page</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Phono</h1>
+        <ul class="nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section id="home" class="section-showcase">
+      <div class="container">
+        <div>
+          <h1>The headphones of the future.</h1>
+          <p>
+            Headphones of the future are set to revolutionize the way we experience sound. With advancements in technology, these next-generation devices will offer immersive audio experiences, enhanced noise-cancellation, and personalized sound profiles that adapt to individual preferences. Future headphones are likely to incorporate features such as wireless charging, voice assistants, and even augmented reality (AR) integration for an interactive audio-visual experience. Additionally, improvements in comfort, battery life, and design will make them more seamless for daily use, blending effortlessly into our digital lifestyles. The future of headphones promises to bring a new level of innovation, convenience, and sound quality.
+          </p>
+          <a href="#about" class="btn">Read More</a>
+        </div>
+        <img src="https://i.ibb.co/37Y74kv/showcase.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Large Text -->
+    <section id="about" class="section-large-text">
+      <div class="overlay">
+        <div class="section-large-text-inner">
+          <h3>Loud & Clear</h3>
+          <h2>People Aren't Hearing All the Music</h2>
+          <p>
+            In today's world, much of the music we listen to is often compressed or compromised in quality, resulting in a loss of depth, clarity, and richness. Despite technological advances, many listeners are missing out on the full spectrum of sound that artists and producers work hard to create. Whether it’s due to low-quality streaming, inadequate headphones, or overly compressed audio formats, the true essence of music often gets lost in translation. It's time to elevate our listening experience and appreciate the music as it was meant to be heard—loud, clear, and full of detail.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-gallery">
+      <div class="gallery">
+        <img src="https://i.ibb.co/CHLBZnp/gal2323.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/4pBbhfY/gal39834.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/xSnHP7g/gal43884.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/QN6Bnrb/gal4958.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/dGZvj75/gal4545.jpg" alt="" class="big" />
+        <img src="https://i.ibb.co/S6FVFNt/gal74744.jpg" alt="" class="big" />
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+      <div class="container">
+        <div>
+          <h2>Do a visit !</h2>
+          <a href="http://instagram.com">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3>Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Blog Posts</h3>
+          <ul>
+            <li><a href="#">Future Headphones: Innovation</a></li>
+            <li><a href="#">Maximizing Music: Clarity</a></li>
+            <li><a href="#">User Experience: Design</a></li>
+            <li><a href="#">CSS Colors: Blending</a></li>
+            <li><a href="#">Portfolio Design: Creativity</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Subscribe</h3>
+          <p>Stay updated with the latest insights, tips, and trends. Don't miss out—sign up now!</p>
+          <form name="email-form" onsubmit="event.preventDefault()">
+            <div class="email-form">
+              <span class="form-control-wrap"
+                ><input
+                  type="email"
+                  name="email"
+                  id="email"
+                  size="40"
+                  class="form-control"
+                  placeholder="E-mail" /></span
+              ><button type="submit" value="Submit" class="form-control submit">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
